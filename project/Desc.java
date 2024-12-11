@@ -4,15 +4,17 @@ public class Desc extends sample {
 
 	public void desc() {
 		
-		for(int i=0; i<10; i++) {
-			for(int j=0; j<=10; j++) {
-				value++;
-				if(value == 11) {
-					reset();
-				}
-				if(j!=10) {
+		for(int i=lineValue; i>0; i--) {
+			for(int j=lineValue; j>=0; j--) {
+
+				if(j!=0) {
 					System.out.print(value + " ");
 				}
+				value--;
+				if(value == 0) {
+					reset();
+				}
+				
 			}
 			System.out.println();
 		}
@@ -20,7 +22,6 @@ public class Desc extends sample {
 
 	@Override
 	public void reset() {
-		// TODO Auto-generated method stub
-		super.reset();
+		value = 10;
 	}
 }
