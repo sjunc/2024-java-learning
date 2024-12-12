@@ -9,7 +9,7 @@ public class Asc extends sample {
 					System.out.print(value + " ");
 				}
 				value++;
-				if(value == 11) {
+				if(value > 10) {
 					reset();
 				}
 			}
