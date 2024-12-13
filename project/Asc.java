@@ -1,9 +1,9 @@
-package project;
+package w14.project;
 
-public class Asc extends sample {
+public class Asc extends Basic {
 
 	public void asc() {
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<lineValue; i++) {
 			for(int j=0; j<=10; j++) {
 				if(j!=10) {
 					System.out.print(value + " ");

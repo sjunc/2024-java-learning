@@ -1,4 +1,4 @@
-package project;
+package w14.project;
 
 import java.util.Scanner;
 
@@ -8,7 +8,6 @@ public class Main {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
-		sample sample = new sample();
 		Asc asc = new Asc();
 		Desc desc = new Desc();
 

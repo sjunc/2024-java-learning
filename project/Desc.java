@@ -1,6 +1,6 @@
-package project;
+package w14.project;
 
-public class Desc extends sample {
+public class Desc extends Basic {
 
 	public void desc() {
 		
